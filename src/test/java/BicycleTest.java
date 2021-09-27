@@ -30,7 +30,7 @@ public class BicycleTest {
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
         b.downgradeSpeed();
-        assertEquals(0, b.getMaxSpeed());
+        assertEquals(9, b.getMaxSpeed());
     }
 
     @Test(timeout = 50)
