@@ -99,10 +99,6 @@ public class Trader {
                 new Horse(),
                 new Car(50, 100),
                 new Car(20, 50)
-
-
-
-
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
