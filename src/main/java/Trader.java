@@ -97,6 +97,13 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
+
+
+
+
+
+
+
                 new Cow()
         );
 
