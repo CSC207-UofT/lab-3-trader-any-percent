@@ -1,7 +1,9 @@
 
 public class Boat implements Tradable, Drivable {
+    /**
+     * A class called Boat that implements the Tradable and Drivable interface.
+     */
     private int maxSpeed;
-
     public Boat(){
         this.maxSpeed = 10;
     }
@@ -13,7 +15,7 @@ public class Boat implements Tradable, Drivable {
 
     @Override
     public void downgradeSpeed() {
-        if (this.maxSpeed >= 0){
+        if (this.maxSpeed > 0){
             this.maxSpeed -= 2;
         }
     }
