@@ -98,7 +98,7 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Car(50, 100),
-                new Car(20, 50),
+                new Car(20, 50)
 
 
 
