@@ -26,6 +26,11 @@ public class CarTest {
     public void TestGetPrice(){
         assertEquals(15, c.getPrice());
     }
+    @Test(timeout = 1000)
+    public void TestDowngradeSpeed(){
+        c.downgradeSpeed();
+        assertEquals(49, c.getMaxSpeed());
+    }
 
 
 
