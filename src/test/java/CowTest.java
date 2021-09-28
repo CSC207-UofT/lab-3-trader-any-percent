@@ -26,6 +26,12 @@ public class CowTest {
         assertEquals(11, h.getMaxSpeed());
     }
 
+    @Test(timeout = 50)
+    public void TestDowngradeSpeed() {
+        h.downgradeSpeed();
+        assertEquals(9, h.getMaxSpeed());
+    }
+
 
     @Test(timeout = 50)
     public void TestGetPrice() {

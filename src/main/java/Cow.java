@@ -1,6 +1,10 @@
 public class Cow implements Drivable, Domesticatable, Tradable{
+    /**
+     * A class for cow which is drivable, tradable, and domesticatable.
+     */
     private int maxSpeed;
-    public Cow() {this.maxSpeed = 10;}
+    public Cow() {this.maxSpeed = 10;
+    }
 
     @Override
     public String sound() {
@@ -14,7 +18,9 @@ public class Cow implements Drivable, Domesticatable, Tradable{
 
     @Override
     public void downgradeSpeed() {
-        this.maxSpeed--;
+        if (this.maxSpeed > 0){
+            this.maxSpeed --;
+        }
     }
 
     @Override
